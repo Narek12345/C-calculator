@@ -29,13 +29,13 @@ double div(double a, double b)
 
 int main(void)
 {
-	printf("Enter the first number: ");
-	scanf("%i\n", &a);
+	printf("\nEnter the first number: ");
+	scanf("%i", &a);
 	printf("Enter the second number: ");
-	scanf("%i\n\n", &b);
+	scanf("%i", &b);
 
 
-	printf("Sum: %i\n", sum(a, b));
+	printf("\nSum: %i\n", sum(a, b));
 	printf("Sub: %i\n", sub(a, b));
 	printf("Mul: %i\n", mul(a, b));
 	printf("Div: %lf\n", div(a, b));
